@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: url(C.jpg);
+}
+.calci{
+    width: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    transition: 0.25px;
+    text-align: center;
+}
+#display{
+
+
+   border: none;
+   background: white;
+   border-radius: 30px; 
+   width: 250; 
+   font-size: 40;
+   font-family: 'DS-Digital';
+   font-weight: 300;
+   height: 60;
+   margin-top: 1;
+   border: 2px solid rgb(0, 0, 0);
+   color: black;
+   border: 1px solid black;
+}
+.btnDesign{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1;
+}
+.operatorDesign{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1;
+    color: white;
+    background-color: black;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.color1{
+    width: 112;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1;
+    background-color: red;
+    color: white;
+}
+.color2{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1;
+    background-color: gray;
+    color: white;
+}
+.zero{
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 30px;
+    margin: 1;
+}
+h1{
+    color: black;
+    outline: black;
+    margin-top: 140px;
+    margin-left: 100px;
+    text-transform: uppercase;
+   font-family: 'Times New Roman';
+    font-weight: 700px;
+    text-decoration: underline;
+    font-size: 50;
+}
+h2{
+    color: black;
+    margin-top: -1px;
+    margin-left: 120px;
+    font-family: cursive;
+    font-weight: 500px;
+    text-decoration: initial;
+    font-size: 20;
+}
+h6{
+    color: black;
+    margin: 360px;
+    margin-top: 420px;
+    margin-left: 500px;
+    text-transform: initial;
+    font-family: sans-serif;
+    font-weight: 700px;
+    text-decoration: initial;
+    font-size: 18;
+}
